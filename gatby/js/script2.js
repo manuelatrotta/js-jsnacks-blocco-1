@@ -1,9 +1,9 @@
 
-alert('welcome');
+alert('welcome to the Great Gatsby\'s Party');
 //creare lista di nomi
-var lista = ['manuela', 'sampey', 'carlo', 'ashey'];
+var lista = ['daisy', 'nick', 'tom', 'jordan'];
 //chiedere nome all'utente
-var nome = (prompt('inserisci il tuo nome per verificare se sei tra i partecipanti'));
+var nome = (prompt('Vecchio mio, inserisci il tuo nome per verificare se sei tra i partecipanti al mio party.J.Gatsby'));
 console.log(nome);
 var presente = false;
 //verificare presenza nome dell'utente nella lista
@@ -16,12 +16,20 @@ for (var i=0; i<lista.length; i++){
 //comunicare il responso all'utente
 console.log(presente);
 if(presente==false){
-  console.log('nome non presente');
+  console.log('mi dispiace vecchio mio,il tuo nome non è presente');
 }
 else{
-  console.log('nome presente');
+  console.log('benvenuto vecchio mio,il tuo nome è presente');
 }
 //con while
-//i=0;
+//var i=0;
 //var presente = false;
-//while(presente==false && i<lista.length)
+//var messaggio ='mi dispiace vecchio mio,il tuo nome non è presente';
+
+//while(presente == false && i<lista.length){
+// if (nome == lista[i]){
+//messaggio = 'benvenuto vecchio mio,il tuo nome è presente';
+//presente = true;
+// }
+//i++;
+//}
