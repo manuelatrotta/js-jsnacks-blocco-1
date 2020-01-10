@@ -1,5 +1,6 @@
 
 alert('welcome to the Great Gatsby\'s Party');
+//In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 //creare lista di nomi
 var lista = ['daisy', 'nick', 'tom', 'jordan'];
 //chiedere nome all'utente
