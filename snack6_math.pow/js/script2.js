@@ -10,7 +10,7 @@ alert('welcome');
 
 //risoluzione con while
 var n= prompt('inserisci un numero');
-i=1;
+var i=1;
 while(i<=n){
   console.log(Math.pow(i, 3));
   i++;

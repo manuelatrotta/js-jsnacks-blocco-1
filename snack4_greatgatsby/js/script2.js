@@ -10,16 +10,15 @@ var presente = false;
 //verificare presenza nome dell'utente nella lista
 for (var i=0; i<lista.length; i++){
   var invitato = lista[i];
-  if(nome==invitato){
+  if(nome == invitato){
     presente = true;
   }
 }
 //comunicare il responso all'utente
 console.log(presente);
-if(presente==false){
+if (presente == false) {
   console.log('mi dispiace vecchio mio,il tuo nome non è presente');
-}
-else{
+}else{
   console.log('benvenuto vecchio mio,il tuo nome è presente');
 }
 //con while
