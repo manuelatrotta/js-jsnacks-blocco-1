@@ -5,7 +5,7 @@ alert('welcome');
 var parola1 = prompt('inserisci una parola');
 var parola2 = prompt('inserisci una seconda parola');
 
-//step2:stampa prima la parola più corta
+//step2:stampa prima la parola più corta grazie a .length
 if(parola1.length == parola2.length){
   alert('hai inserito due parole della stessa lunghezza');
 }else if (parola1.length > parola2.length) {
